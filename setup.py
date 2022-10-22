@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name=os.getenv('PACKAGE_NAME'),
-    version=os.getenv('PACKAGE_VERSION'),
+    version='0.0.1',
     author="ShomyApp",
     description=os.getenv('PACKAGE_DESCRIPTION'),
     packages=setuptools.find_packages(),
