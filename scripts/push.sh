@@ -1,4 +1,4 @@
-git config --global user.name ${GITHUB_ACTOR}
-git config --global user.email ${GITHUB_ACTOR}@users.noreply.github.com
+git config --global user.name "github-actions[bot]"
+git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 git add -A && git commit -m "$PACKAGE_NAME NEW VERSION"
-git push -u origin main
+git push origin HEAD:main
