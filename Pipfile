@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+grpcio = "1.50.0"
+grpcio-tools = "1.50.0"
+wheel = "0.37.1"
+
+[dev-packages]
+flake8 = "*"
+
+[requires]
+python_version = "3.7"
+python_full_version = "3.7.15"

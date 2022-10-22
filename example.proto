@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+package examplePackage;
+
+service Example {
+    rpc getData (google.protobuf.Empty) returns (dataResponse) {};
+    rpc createData (dataRequest) returns (google.protobuf.Empty) {};
+}
+
+message dataResponse {
+    int32 id = 1;
+    string name = 2;
+}
+
+message dataRequest {
+    int32 id = 1;
+    string name = 2;
+}
