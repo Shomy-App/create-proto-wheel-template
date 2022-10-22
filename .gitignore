@@ -1,5 +1,6 @@
-build
 venv
-*pb2.py
-*pb2_grpc.py
+build
+dist
+*egg-info
 requirements.txt
+.env
